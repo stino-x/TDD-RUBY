@@ -16,4 +16,12 @@ describe 'Tests the Solver Class' do
   it 'returns 1 when the argument is 0' do
     expect(@object.factorial(0)).to eq(1)
   end
+  
+  it 'tests if the reverse method raises an error for non-string input' do
+    expect { @object.reverse(6) }.to raise_error(ArgumentError, 'Input must be a string')
+  end
+​
+  it 'tests if the reverse method reverses a string input' do
+    expect(@object.reverse('Austin')).to eq('nitsuA')
+  end
 end
