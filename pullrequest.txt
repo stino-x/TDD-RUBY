@@ -1,0 +1,30 @@
+
+Title: Adding Solver class and corresponding RSpec tests
+
+Description:
+
+This pull request introduces the Solver class, accompanied by a test suite leveraging RSpec to validate the class methods.
+
+Changes
+Class Additions:
+
+Solver Class: The Solver class contains methods for factorial calculation, string reversal, and the fizzbuzz logic. Each method is designed to handle various cases and raise errors when necessary.
+Test Suite:
+
+RSpec Tests: Included a suite of RSpec tests to thoroughly assess the behavior of the Solver class methods.
+Factorial method tests negative, zero, and positive number cases.
+Reverse method tests string reversal and handling non-string inputs.
+Fizzbuzz method is tested for different divisible scenarios and default string return.
+Testing Approach
+The test suite is structured to evaluate the methods' functionality by employing positive, negative, and edge cases to ensure robust behavior. It checks for accurate computation, appropriate error handling, and expected results in line with the problem specifications.
+
+Contributors
+Iheagwara Augustine
+Alexander Saveedra
+Mahammad Mostafa
+
+Additional Notes
+This PR aims to provide a comprehensive set of tests covering the Solver class methods. It's structured to improve code reliability and to ensure that the class behavior aligns with the defined specifications.
+
+Review Request
+Review and feedback are greatly appreciated to ensure the reliability and correctness of the implemented methods and tests.
